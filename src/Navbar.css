@@ -1,0 +1,21 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: #000;
+    position: sticky;
+    /* width: 100vw; */
+    top: 0;
+    z-index: 100;
+}
+
+.navbar__logo,.navbar__face{
+    height: 3rem;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+/* .navbar__face{
+    margin-right: 2rem;
+} */

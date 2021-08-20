@@ -1,0 +1,53 @@
+.hero{
+    height: 448px;
+    object-fit: contain;
+    position: relative;
+}
+
+.hero__content{
+    margin-left: 2rem;
+    padding-top: 14rem;
+    color: #fff;
+}
+
+.hero__title{
+    font-size: 3rem;
+    padding-bottom:0.3rem;
+    font-weight: bolder;
+}
+
+.hero__description{
+    font-size: 1.4rem;
+    width: 72rem;
+    padding-top: 1rem;
+    line-height: 2.08rem;
+    max-width: 36rem;
+    height: 8rem;
+}
+
+.btn{
+    cursor: pointer;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    border: 0.2vw;
+    padding: 0.8rem 3.2rem;
+    margin-right: 1.6rem;
+    background-color: rgba(51,51,51,0.5);
+}
+
+.btn:hover{
+    color: #000;
+    background-color: #e6e6e6;
+    transition: all 200ms ease-in;
+}
+
+.hero__fadeBottom{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 11.52rem;
+    width: 100vw;
+    background: linear-gradient(180deg, transparent, rgba(37,37,37,0.6),#111);
+}
